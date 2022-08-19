@@ -5,12 +5,11 @@ import react from "@astrojs/react";
 import tailwind from "@astrojs/tailwind";
 import svelte from "@astrojs/svelte";
 
-import image from "@astrojs/image";
 
 // https://astro.build/config
 export default defineConfig({
   site: 'https://example.com',
-  integrations: [mdx(), react(), svelte(), image(), tailwind({
+  integrations: [mdx(), react(), svelte(), tailwind({
     config: {
       applyBaseStyles: false
     }

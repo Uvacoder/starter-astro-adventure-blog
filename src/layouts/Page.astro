@@ -16,7 +16,10 @@ const { pageTitle, desc, thumbnail, title } = (Astro.props.content ||
 
 <!DOCTYPE html>
 <html lang="en">
-  <BaseHead description={desc} title={pageTitle} image={thumbnail} />
+  <head>
+     <BaseHead description={desc} title={pageTitle} image={thumbnail} />
+  </head>
+ 
 
   <body
     class="bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100"

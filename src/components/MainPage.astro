@@ -1,7 +1,6 @@
 ---
 import dayjs from "dayjs";
 import { Determinatic } from "determinatic";
-import { Image } from '@astrojs/image/components';
 import type { Row } from "../utils/notion";
 export interface Props {
   title: string;
@@ -40,8 +39,6 @@ const { title, tableData } = Astro.props as Props;
         <a href={`/${row.id}`}>
           <article class="flex flex-col md:flex-row rounded-lg  overflow-hidden hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors p-3">
             <div >
-              
-              
                <img
                
                 alt={(row?.Name as string) ?? ""}
