@@ -1,0 +1,35 @@
+{
+	"name": "@example/blog",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	"packageManager": "pnpm@7.9.3",
+	"devDependencies": {
+		"@astrojs/image": "^0.3.4",
+		"@astrojs/mdx": "^0.10.0",
+		"@astrojs/react": "^1.0.0",
+		"@astrojs/rss": "^1.0.0",
+		"@astrojs/sitemap": "^1.0.0",
+		"@astrojs/svelte": "^1.0.0",
+		"@astrojs/tailwind": "^1.0.0",
+		"astro": "^1.0.6",
+		"react": "^18.0.0",
+		"react-dom": "^18.0.0",
+		"svelte": "^3.46.4"
+	},
+	"dependencies": {
+		"@types/react": "^18.0.17",
+		"dayjs": "^1.11.5",
+		"determinatic": "^1.0.9",
+		"notion-client": "^6.13.4",
+		"notion-types": "^6.13.4",
+		"notion-utils": "^6.13.4",
+		"react-notion-x": "^6.13.4"
+	}
+}
